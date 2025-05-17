@@ -20,7 +20,7 @@ class Localfiles {
    static const String tela1 = BaseUrl1 + 'o1.png';
    static const String tela2 = BaseUrl1 + 'o2.png';
    static const String tela3 = BaseUrl1 + 'o3.png';
-   static const String tela4 = BaseUrl1 + 'o4.avif';
+   static const String tela4 = BaseUrl1 + 'o4.png';
 
    static const BaseUrl2 = 'assets/images/skin/';
    static const String mask = BaseUrl2 + 'mask.png';

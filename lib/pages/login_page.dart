@@ -1,3 +1,4 @@
+import 'package:farmacia/components/onboarding_screen/onboarding_screen.dart';
 import 'package:farmacia/components/widgets/button.dart';
 import 'package:farmacia/components/widgets/password_field.dart';
 import 'package:farmacia/components/widgets/transparent_field.dart';
@@ -57,7 +58,13 @@ class _LoginPageState extends State<LoginPage> {
                   corshadow: Colors.transparent,
                   textcolor: Colors.lightGreenAccent,
                   label: 'Entrar na conta',
-                  ontap: () {},
+                  ontap: () {
+                     Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (_) => const OnboardingScreen(),
+                          
+                        )); // sua Home
+                  },
                 ),
               ],
             ),

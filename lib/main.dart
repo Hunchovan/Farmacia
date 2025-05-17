@@ -17,9 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:ProvidedStylesExample(
-        menuScreenContext: null, // só precisa de um contexto se usar dentro de drawer
-      ),
+      home:InitialPage()
 
     );
   }
