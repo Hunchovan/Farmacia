@@ -30,6 +30,9 @@ class Localfiles {
    static const String azevedo = BaseUrl3 + 'aze.png';
    static const String cloro = BaseUrl3 + 'cloro.png';
    static const String ibru = BaseUrl3 + 'ibru.png';
+   static const String seringa = BaseUrl3 + 'seringa.png';
+   static const String tintura = BaseUrl3 + 'tintura.png';
+   static const String vitamina = BaseUrl3 + 'vitamina.png';
 
    static const BaseUrl4 = 'assets/images/suplementos/';
    static const String creatina = BaseUrl4 + 'creatina.png';

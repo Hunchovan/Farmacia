@@ -1,5 +1,6 @@
 import 'package:farmacia/components/onboarding_screen/onboarding_screen.dart';
 import 'package:farmacia/components/widgets/persistent_nav.dart';
+import 'package:farmacia/pages/compra_page.dart';
 import 'package:farmacia/pages/home_page.dart';
 import 'package:farmacia/pages/initial_pages.dart';
 import 'package:farmacia/pages/login_page.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:InitialPage()
+      home:CompraPage()
 
     );
   }

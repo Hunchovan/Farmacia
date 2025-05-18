@@ -42,7 +42,7 @@ class _ProvidedStylesExampleState extends State<ProvidedStylesExample> {
           inactiveColorPrimary: Colors.black,
         ),
         PersistentBottomNavBarItem(
-          icon: const Icon(Icons.search),
+          icon: const Icon(Icons.shopping_cart_outlined),
           title: "Carrinho",
           activeColorPrimary: Colors.white,
           inactiveColorPrimary: Colors.black,
