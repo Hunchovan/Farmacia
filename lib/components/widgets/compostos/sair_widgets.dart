@@ -1,3 +1,4 @@
+import 'package:farmacia/pages/home_page.dart';
 import 'package:flutter/material.dart';
 
 
@@ -20,8 +21,15 @@ class SairWidgets extends StatelessWidget {
                       borderRadius: BorderRadius.circular(30),
                       border: Border.all(color: const Color.fromARGB(72, 7, 59, 9),),
                     ),
-                    child: Icon(Icons.arrow_back,color: const Color.fromARGB(137, 0, 0, 0),),
-                  ),
+                    child:IconButton(onPressed:() {
+                       Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (_) => const HomePage(),
+                          
+                        )); // sua Home
+                    }, icon: Icon(Icons.arrow_back,color:  const Color.fromARGB(137, 0, 0, 0),))
+                    
+                                      ),
                 ),
 
 

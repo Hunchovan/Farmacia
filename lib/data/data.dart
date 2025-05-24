@@ -25,7 +25,8 @@ class Medicamentos{
       preco: 250,
       imagePath: Localfiles.azevedo,
       quantidade: 'Caixa 500mg',
-      stars: 4.5
+      stars: 4.5,
+      categorias: 'Medicamento'
 
     ),
     Medicamentos(
@@ -33,7 +34,8 @@ class Medicamentos{
       preco: 175,
       imagePath: Localfiles.ibru,
       quantidade: 'Caixa 50mg',
-      stars: 4.8
+      stars: 4.8,
+      categorias: 'Medicamento'
 
     ),
     Medicamentos(
@@ -41,7 +43,8 @@ class Medicamentos{
       preco: 100,
       imagePath: Localfiles.cloro,
       quantidade: 'Caixa 30mg',
-      stars: 4.5
+      stars: 4.5,
+      categorias: 'Medicamento'
     ),
 
   ];
@@ -52,7 +55,8 @@ class Medicamentos{
       preco: 850,
       imagePath: Localfiles.omega,
       quantidade: '500ml',
-      stars: 3.8
+      stars: 3.8,
+      categorias: 'Medicamento'
 
     ),
     Medicamentos(
@@ -60,7 +64,8 @@ class Medicamentos{
       preco: 3500,
       imagePath: Localfiles.whey,
       quantidade: 'Balde 4kg',
-      stars: 4.8
+      stars: 4.8,
+      categorias: 'Medicamento'
     ),
 
     Medicamentos(
@@ -68,7 +73,38 @@ class Medicamentos{
       preco: 100,
       imagePath: Localfiles.creatina,
       quantidade: '600g',
-      stars: 4.5
+      stars: 4.5,
+      categorias: 'Medicamento'
+    ),
+    
+
+  ];
+  static List<Medicamentos> best = [
+     Medicamentos(
+      nome: 'Omega 3',
+      preco: 850,
+      imagePath: Localfiles.omega,
+      quantidade: '500ml',
+      stars: 3.8,
+      categorias: 'Medicamento'
+
+    ),
+    Medicamentos(
+      nome: 'Whey Protein',
+      preco: 3500,
+      imagePath: Localfiles.whey,
+      quantidade: 'Balde 4kg',
+      stars: 4.8,
+      categorias: 'Medicamento'
+    ),
+
+    Medicamentos(
+      nome: 'Creatina',
+      preco: 100,
+      imagePath: Localfiles.creatina,
+      quantidade: '600g',
+      stars: 4.5,
+      categorias: 'Medicamento'
     ),
     
 

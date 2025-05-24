@@ -29,7 +29,7 @@ class _ProvidedStylesExampleState extends State<ProvidedStylesExample> {
   // Definindo 3 telas
   List<Widget> _buildScreens() => [
         const HomePage(),  // Tela de Exploração
-        const Cart(),  // Tela de Calendário
+        const Cart(itensCompra: [],),  // Tela de Calendário
         const ProfilePage(),        // Tela de Configurações
       ];
 
